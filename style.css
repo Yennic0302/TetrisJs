@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 250px;
+    height: 50px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.game-container{
+    margin: auto;
+    display: flex;
+}
+#nextShapeCanvas{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+#canvas{
+    height: 600px;
+}
+
+#game{
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to right, #343332, #141512);
+}
+
+#game h1{
+    font-size: 40px;
+    color: #f3f3f3;
+    text-align: center;
+}
+
+
+.details-game{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#btn-restart{  
+    background: transparent;
+    height: 70px; 
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #f3f3f3;
+    background-color: #f3f3f3;
+    margin: 10px;
+}
